@@ -1,0 +1,4 @@
+.camera__main{
+    display: grid;
+    grid-template: 120px auto ;
+}
