@@ -7,12 +7,12 @@
     <title> Show Metadata </title>
 </head>
 <body>
-    <form class="form" action="/upload" method="post" ">
-        <!-- <input class="input" type="file" name="filename">
-        <input class="btn" type="submit" value="upload"/> -->
-        <input type="text" name="user" placeholder="Name"/>
+    <form class="form" action="/upload" method="post" encType="multipart/form-data" >
+        <input class="input" type="file" name="image" />
+        <input class="btn" type="submit" value="upload"/>
+        <!-- <input type="text" name="user" placeholder="Name"/>
         <input type="text" name="age" placeholder="age"/>
-        <input type="submit" value="save" />
+        <input type="submit" value="save" /> -->
     </form>
 
     <ul></ul>
